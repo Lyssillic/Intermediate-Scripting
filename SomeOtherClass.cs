@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class SomeOtherClass : MonoBehavior
+public class SomeOtherClass : MonoBehaviour
 {
     void Start()
     {

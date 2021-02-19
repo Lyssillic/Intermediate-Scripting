@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class EnemyPlayer : MonoBehavior
+public class EnemyPlayer : MonoBehaviour
 {
     // Static variables are shared across all instantances of a class
     public static int playerCount = 0;

@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class TernaryOperator : MonoBehavior
+public class TernaryOperator : MonoBehaviour
 {
     void Start()
     {
