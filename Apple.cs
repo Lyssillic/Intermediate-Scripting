@@ -23,4 +23,17 @@ public class Apple : Fruit
         // is passed as an argument
         Debug.Log("2nd Apple Constructor Called");
     }
+
+    // Apple has its own Chop() and SayHello()
+    // When running the scripts, notice when Fruit's
+    // versions are called and when Apple's are called
+    public new void Chop()
+    {
+        Debug.Log("The apple has been chopped.");
+    }
+
+    public new void SayHello()
+    {
+        Debug.Log("Hello, I am an apple.");
+    }
 }
