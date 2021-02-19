@@ -27,13 +27,17 @@ public class Apple : Fruit
     // Apple has its own Chop() and SayHello()
     // When running the scripts, notice when Fruit's
     // versions are called and when Apple's are called
-    public new void Chop()
+
+    // Override methods override any virtual methods in parent class
+    public override void Chop()
     {
+        base.Chop();
         Debug.Log("The apple has been chopped.");
     }
 
-    public new void SayHello()
+    public override void SayHello()
     {
+        base.SayHello();
         Debug.Log("Hello, I am an apple.");
     }
 }

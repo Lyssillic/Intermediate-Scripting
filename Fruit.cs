@@ -22,12 +22,13 @@ public class Fruit
         Debug.Log("2nd Fruit Constructor Called");
     }
 
-    public void Chop()
+    // These methods are virtual and this can be overridden in child classes
+    public virtual void Chop()
     {
         Debug.Log("The " + color + " fruit has been chopped.");
     }
 
-    public void SayHello()
+    public virtual void SayHello()
     {
         Debug.Log("Hello, I am a fruit.");
     }

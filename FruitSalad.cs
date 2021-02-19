@@ -56,5 +56,14 @@ public class FruitSalad : MonoBehaviour
 
         myApple.SayHello();
         myApple.Chop();    
+
+        // Overriding is also useful in a polymorphic situation
+        // Since the methods of the Fruit class are "virtual" and
+        // the methods of the Apple class are "override", when we 
+        // upcast an Apple into a Fruit, the Apple version of the 
+        // methods is used
+        Fruit myFruit = new Apple();
+        myFruit.SayHello();
+        myFruit.Chop();
     }
 }
